@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a70104-d045-4032-b1ae-c1e57f254983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5Signature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/手机号.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/signs/RsaSignature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/signs/手机号.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/target/classes/com/bigdata/md5s/MD5Signature.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/target/classes/com/bigdata/md5s/MD5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/target/classes/com/bigdata/signs/RsaSignature.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/target/classes/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/target/logs/app-2020-09-28.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/producer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5_bind.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5_relat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/target/classes/com/bigdata/md5s/ArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5Signature.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/MD5Signature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s/手机号.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/classes/com/bigdata/md5s/MD5Signature.class" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/com/bigdata/md5s/MD5Signature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/classes/com/bigdata/md5s/MD5Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/com/bigdata/md5s/MD5Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/target/classes/com/bigdata/signs/RsaSignature.class" beforeDir="false" afterPath="$PROJECT_DIR$/producer/target/classes/com/bigdata/signs/RsaSignature.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/producer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,24 +61,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/producer/src/main/resources" />
-      <recent name="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/dataset" />
-      <recent name="$PROJECT_DIR$/apache-flink-java/src/main/java/com/icocos/bigdata/dataset" />
-      <recent name="$PROJECT_DIR$/apache-flink-pros/src/main/java" />
-      <recent name="$PROJECT_DIR$/apache-flink-pros" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bigdata.md5s" />
-      <recent name="com.bigdata.signs" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s" />
       <recent name="$PROJECT_DIR$/producer/src/main/java/com/bigdata/signs" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/practical-pros/src/main/java" />
       <recent name="$PROJECT_DIR$/practical-pros" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bigdata.md5s" />
+      <recent name="com.bigdata.signs" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/producer/src/main/java/com/bigdata/md5s" />
+      <recent name="$PROJECT_DIR$/producer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/apache-flink-scala/src/main/scala/com/icocos/bigdata/dataset" />
+      <recent name="$PROJECT_DIR$/apache-flink-java/src/main/java/com/icocos/bigdata/dataset" />
+      <recent name="$PROJECT_DIR$/apache-flink-pros/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MD5Signature">
@@ -198,7 +190,8 @@
       <workItem from="1601174689220" duration="601000" />
       <workItem from="1601195216609" duration="4307000" />
       <workItem from="1602211963676" duration="905000" />
-      <workItem from="1602827182284" duration="6608000" />
+      <workItem from="1602827182284" duration="6660000" />
+      <workItem from="1604894447364" duration="1921000" />
     </task>
     <servers />
   </component>
@@ -245,42 +238,46 @@
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state x="2138" y="125" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.834/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601020370961" />
-    <state width="1878" height="488" key="GridCell.Tab.0.bottom" timestamp="1602832224568">
+    <state width="1878" height="312" key="GridCell.Tab.0.bottom" timestamp="1604901650184">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.bottom/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018684" />
     <state width="1878" height="409" key="GridCell.Tab.0.bottom/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601300880144" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.834/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601366667454" />
-    <state width="1878" height="488" key="GridCell.Tab.0.bottom/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602832224568" />
+    <state width="1878" height="101" key="GridCell.Tab.0.bottom/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602835366754" />
     <state width="1398" height="121" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1600851845928" />
-    <state width="1878" height="181" key="GridCell.Tab.0.bottom/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600932424311" />
-    <state width="1878" height="488" key="GridCell.Tab.0.center" timestamp="1602832224566">
+    <state width="1878" height="312" key="GridCell.Tab.0.bottom/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901650184" />
+    <state width="1878" height="651" key="GridCell.Tab.0.bottom/0.23.1440.837/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901094794" />
+    <state width="1878" height="312" key="GridCell.Tab.0.center" timestamp="1604901650183">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.center/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018683" />
     <state width="1878" height="409" key="GridCell.Tab.0.center/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601300880142" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.834/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601366667454" />
-    <state width="1878" height="488" key="GridCell.Tab.0.center/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602832224566" />
+    <state width="1878" height="101" key="GridCell.Tab.0.center/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602835366753" />
     <state width="1398" height="121" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
-    <state width="1878" height="181" key="GridCell.Tab.0.center/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600932424310" />
-    <state width="1878" height="488" key="GridCell.Tab.0.left" timestamp="1602832224565">
+    <state width="1878" height="312" key="GridCell.Tab.0.center/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901650183" />
+    <state width="1878" height="651" key="GridCell.Tab.0.center/0.23.1440.837/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901094793" />
+    <state width="1878" height="312" key="GridCell.Tab.0.left" timestamp="1604901650182">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.left/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018682" />
     <state width="1878" height="409" key="GridCell.Tab.0.left/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601300880142" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.834/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601366667454" />
-    <state width="1878" height="488" key="GridCell.Tab.0.left/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602832224565" />
+    <state width="1878" height="101" key="GridCell.Tab.0.left/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602835366753" />
     <state width="1398" height="121" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
-    <state width="1878" height="181" key="GridCell.Tab.0.left/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600932424310" />
-    <state width="1878" height="488" key="GridCell.Tab.0.right" timestamp="1602832224567">
+    <state width="1878" height="312" key="GridCell.Tab.0.left/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901650182" />
+    <state width="1878" height="651" key="GridCell.Tab.0.left/0.23.1440.837/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901094792" />
+    <state width="1878" height="312" key="GridCell.Tab.0.right" timestamp="1604901650183">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
     <state width="1878" height="522" key="GridCell.Tab.0.right/0.23.1440.832/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600863018684" />
     <state width="1878" height="409" key="GridCell.Tab.0.right/0.23.1440.833/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601300880143" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.834/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1601366667454" />
-    <state width="1878" height="488" key="GridCell.Tab.0.right/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602832224567" />
+    <state width="1878" height="101" key="GridCell.Tab.0.right/0.23.1440.835/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1602835366754" />
     <state width="1398" height="121" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1600851845927" />
-    <state width="1878" height="181" key="GridCell.Tab.0.right/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1600932424311" />
+    <state width="1878" height="312" key="GridCell.Tab.0.right/0.23.1440.836/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901650183" />
+    <state width="1878" height="651" key="GridCell.Tab.0.right/0.23.1440.837/-1920.-157.1920.1057/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1604901094793" />
     <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1600753436486">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
