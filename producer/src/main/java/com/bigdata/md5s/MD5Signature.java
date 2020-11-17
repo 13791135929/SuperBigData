@@ -10,6 +10,18 @@ import java.util.*;
  * 签名工具类！
  * @author huhong
  * @date 2020年09月24日12:36
+ *
+ * -- 豌豆付费用户数（剔除退费）: 125266
+ * SELECT COUNT(DISTINCT user_id) from bdl_online.fact_order where pay_status in (1) and package_course_type = 1;
+ *
+ * -- 豌豆付费用户数（不剔除退费: 132753
+ * SELECT COUNT(DISTINCT user_id) from bdl_online.fact_order where pay_status in (1,3) and package_course_type = 1;
+ *
+ * SELECT b.mobile from (
+ * SELECT user_id from bdl_online.fact_order where pay_status in (1) and package_course_type = 1 GROUP BY user_id
+ * ) as a
+ * LEFT JOIN bdl_online.fact_register as b on a.user_id = b.user_id;
+ *
  */
 public class MD5Signature {
 
