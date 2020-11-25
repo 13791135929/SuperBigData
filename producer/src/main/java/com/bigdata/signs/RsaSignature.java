@@ -259,7 +259,7 @@ public class RsaSignature {
                 String signs = rsa256Sign(temp,PRIVATE_KEY).toLowerCase();
                 Set<String> set = new HashSet<String>(Arrays.asList(results));
                 if (set.contains(signs)) {
-                    saveAsFileWriter(temp + "   " + signs  + "\n");
+                    System.out.println(temp + "   " + signs  + "\n");
                 }
             }
         }

@@ -32,14 +32,14 @@ public class MD5Signature {
         /**
          * 豌豆思维内部手机号MD5加密
          */
-        BufferedReader phone = new BufferedReader(new FileReader("/Users/iCocos/Desktop/BigData/SuperBigData/producer/src/main/java/com/bigdata/md5s/Phone_orgs.txt"));
+        BufferedReader phone = new BufferedReader(new FileReader("/Users/iCocos/Desktop/BigData/SuperBigData/producer/src/main/java/com/bigdata/md5s/Real_Phone.txt"));
         String lineP = null;
         List<String> listP = new ArrayList<String>();
         while ((lineP = phone.readLine()) != null) {
             String temp = lineP.trim();
             if (temp != null && !"".equals(temp)) {
                 String md5_wd = MD5Utils.stringToMD5(temp).toLowerCase();
-                saveAsFileWriter(md5_wd + "\n");
+                //saveAsFileWriter(md5_wd + "\n");
                 listP.add(md5_wd);
             }
         }
@@ -49,7 +49,7 @@ public class MD5Signature {
         /**
          * 外部撞库手机号Md5码：魔力耳朵
          */
-        BufferedReader md5s = new BufferedReader(new FileReader("/Users/iCocos/Desktop/BigData/SuperBigData/producer/src/main/java/com/bigdata/md5s/MD5_bind.txt"));
+        BufferedReader md5s = new BufferedReader(new FileReader("/Users/iCocos/Desktop/BigData/SuperBigData/producer/src/main/java/com/bigdata/md5s/MD5_Phone.txt"));
         String lineM = null;
         List<String> listM = new ArrayList<String>();
         while ((lineM = md5s.readLine()) != null) {
@@ -71,8 +71,20 @@ public class MD5Signature {
          */
         String[] results = getUnion(phoneArray, md5sArray);
         System.out.println("匹配成功个数 = " + results.length);
-        for (String i : results) {
-            System.out.println(i);
+//        for (String i : results) {
+//            System.out.println(i);
+//        }
+        BufferedReader phone1 = new BufferedReader(new FileReader("/Users/iCocos/Desktop/BigData/SuperBigData/producer/src/main/java/com/bigdata/md5s/Real_Phone.txt"));
+        String lineP1 = null;
+        while ((lineP1 = phone1.readLine()) != null) {
+            String temp = lineP1.trim();
+            if (temp != null && !"".equals(temp)) {
+                String signs = MD5Utils.stringToMD5(temp).toLowerCase();
+                Set<String> set = new HashSet<String>(Arrays.asList(results));
+                if (set.contains(signs)) {
+                    System.out.println(temp + "   " + signs);
+                }
+            }
         }
 
         System.out.println("================================匹配结束================================");
